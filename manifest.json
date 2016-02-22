@@ -1,0 +1,18 @@
+{
+    "name": "Egghead Transcript Helper",
+    "description": "Move up Transcript panel in Playlist area",
+    "version": "1.0",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "permissions": [
+        "tabs", "webNavigation", "*://egghead.io/*"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "manifest_version": 2
+}
